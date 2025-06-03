@@ -66,13 +66,13 @@ A web-based Library Management System developed using Java Servlets, JDBC, HTML,
 ## Screenshots
 
 ### Login Page
-![Login Page](images/Login Page.png)
+![Login Page](images/Login%20Page.png)
 
 ### Student Dashboard
-![Dashboard](images/Librarian Dashboard.png)
+![Student Dashboard](images/Student%20Dashboard.png)
 
 ### Librarian Dashboard
-![Dashboard](images/Librarin Dashboard.png)
+![Librarian Dashboard](images/Librarin%20Dashboard.png)
 
 ---
 
