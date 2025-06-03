@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="login-heading">Welcome To Library Portal</header>
+      <div class="container">
+        <div class="student-container">
+          <h1>Student Login</h1>
+          <hr />
+          <form action="login" method="post" class="login-form">
+            <label for="susername">Username : </label>
+            <input
+              type="text"
+              name="susername"
+              class="susername"
+              placeholder="Username"
+            />
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              name="spassword"
+              class="spassword"
+              placeholder="Password"
+            />
+            <button type="submit">Submit</button>
+            <p><span>No account?</span><a href="./register.html">Sign up</a></p>
+          </form>
+        </div>
+        <div class="library-container">
+          <h1>Librarian Login</h1>
+          <hr />
+          <form action="login" method="post" class="login-form">
+            <label for="lusername">Username : </label>
+            <input
+              type="text"
+              name="lusername"
+              class="lusername"
+              placeholder="Username"
+            />
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              name="lpassword"
+              class="lpassword"
+              placeholder="Password"
+            />
+            <button type="submit">Submit</button>
+            <p><span>No account?</span><a href="./register.html">Sign up</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

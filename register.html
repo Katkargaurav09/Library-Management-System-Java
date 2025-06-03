@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="register-heading">Welcome To Library Portal</header>
+      <div class="container">
+        <div class="student-container">
+          <h1>Student Registration</h1>
+          <hr />
+          <form action="register" method="post" class="registration-form">
+            <label for="sname">Name : </label>
+            <input
+              type="text"
+              name="sname"
+              id="sname"
+              placeholder="Full Name"
+            />
+            <label for="susername">Username : </label>
+            <input
+              type="text"
+              name="susername"
+              class="susername"
+              placeholder="Username"
+            />
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              name="spassword"
+              class="spassword"
+              placeholder="Password"
+            />
+            <label for="sphone">Phone : </label>
+            <input type="text" name="sphone" id="sphone" placeholder="Phone" />
+            <button type="submit">Submit</button>
+            <p>
+              <span>Have an account?</span><a href="./login.html">Log in</a>
+            </p>
+          </form>
+        </div>
+        <div class="library-container">
+          <h1>Librarian Registration</h1>
+          <hr />
+          <form action="register" method="post" class="registration-form">
+            <label for="lname">Name : </label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Full Name"
+            />
+            <label for="lusername">Username : </label>
+            <input
+              type="text"
+              name="lusername"
+              class="lusername"
+              placeholder="Username"
+            />
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              name="lpassword"
+              class="lpassword"
+              placeholder="Password"
+            />
+            <label for="lphone">Phone : </label>
+            <input type="text" name="lphone" id="lphone" placeholder="Phone" />
+            <button type="submit">Submit</button>
+            <p>
+              <span>Have an account?</span><a href="./login.html">Log in</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

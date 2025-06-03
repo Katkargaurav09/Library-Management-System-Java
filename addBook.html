@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="dashboard">
+        <ul>
+          <li>Welcome, Librarian</li>
+          <li><a href="./librarianDashboard.html">Home</a></li>
+          <li><a href="./addBook.html">Add Book</a></li>
+          <li><a href="./viewBook.html">View Books</a></li>
+          <li><a href="./issueBook.html">Issue Book</a></li>
+          <li><a href="./viewIssuedBook.html">View Issued Book</a></li>
+          <li><a href="./returnBook.html">Return Book</a></li>
+          <li><a href="./fineSection.html">Fine Section</a></li>
+          <li><a href="./login.html">Logout</a></li>
+        </ul>
+      </header>
+      <div class="add-book-container">
+        <div class="add-book">
+          <h1>Add Book</h1>
+          <hr />
+          <form action="addbook" method="post" class="add-book-form">
+            <label for="bookid">Book ID</label>
+            <input type="text" name="bookid" id="bookid" />
+            <label for="bookname">Book Name</label>
+            <input type="text" name="bookname" id="bookname" />
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author" />
+            <label for="quantity">Quantity</label>
+            <input type="text" name="quantity" id="quantity" />
+            <button type="submit">Save Book</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
