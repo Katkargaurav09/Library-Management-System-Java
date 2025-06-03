@@ -1,18 +1,85 @@
-## Getting Started
+# 📚 Library Management System (Java, Servlets, JDBC)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A web-based Library Management System developed using Java Servlets, JDBC, HTML, and CSS. It allows students and librarians to manage library operations like book issue, return, and fine calculation efficiently.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🔧 Tech Stack
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Frontend:** HTML, CSS  
+- **Backend:** Java Servlets  
+- **Database:** MySQL  
+- **Server:** Apache Tomcat  
+- **Tools Used:** Eclipse/VS Code, Git, GitHub  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ✨ Features
 
-## Dependency Management
+### 👤 Student
+- Register and Login  
+- View available books  
+- Issue a book  
+- Return a book  
+- View list of issued books  
+- Fine calculation for late returns  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🧑‍🏫 Librarian
+- Register and Login  
+- Add new books  
+- Update/delete book details  
+- View issued books  
+- Manage returns and fines  
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Library-Management-System-Java.git
+   
+2. Import the project into Eclipse or Visual Studio Code as a Dynamic Web Project.
+  Setup MySQL Database:
+  Create a database named library_db
+
+3. Import library.sql to create necessary tables
+  Configure JDBC Connection:
+  Open DAO files and update DB URL, username, and password
+
+4. Deploy on Apache Tomcat:
+  Right-click the project → Run on Server
+
+5. Access the application:
+  http://localhost:8080/LibraryManagementSystem/
+
+---
+
+## 📌 Database Tables
+- students – stores student login and profile information
+- librarians – stores librarian login details
+- books – stores book records (ID, name, author, quantity)
+- issued_books – tracks issued books, return status, and fine
+
+---
+
+## Screenshots
+
+### Login Page
+![Login Page](images/login.png)
+
+### Student Dashboard
+![Dashboard](images/dashboard.png)
+
+### Librarian Dashboard
+![Dashboard](images/dashboard.png)
+
+---
+
+## 🙌 Contributing
+Contributions are welcome! Fork the repository, create a new branch, make your changes, and submit a pull request.
+
+---
+
+Let me know if you’d like a sample `library.sql` file or a custom license file to go along with it.
+
